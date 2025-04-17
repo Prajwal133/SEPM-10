@@ -20,7 +20,7 @@ pipeline {
 
         stage('Run Docker Container') {
             steps {
-                bat 'docker run -d -p 8081:80 my-docker-webapp'
+                bat 'docker run -d -p 5500:80 my-docker-webapp'
             }
         }
     }
